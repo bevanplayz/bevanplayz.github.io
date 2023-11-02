@@ -8,7 +8,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #222;
     color: #fff;
-    text-align: center; /* Center-align the content */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -55,7 +58,8 @@ nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px 20px;
-    text-align: left; /* Align section content to the left */
+    text-align: left;
+    flex: 1; /* Allow sections to grow to fill available space */
 }
 
 .section-content h2 {
@@ -63,10 +67,9 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.section-content h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
-
-
-/* Rest of the CSS remains the same */
