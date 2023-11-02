@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aidan Bevan - PC Gamer & Personal Website</title>
-    <link rel="stylesheet" href="dad.css">
+    <title>Your Name - PC Gamer & Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
+            <div class="logo">Your Name</div>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>              
-                <li><a href="#gaming">Gaming</a></li> <!-- New "Gaming" section link -->
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gaming">Gaming</a></li>
             </ul>
         </nav>
     </header>
@@ -20,7 +22,8 @@
     <section id="hero">
         <div class="hero-content">
             <h1>Welcome to My Personal Website</h1>
-            <p>Discover my journey, work, and my gaming adventures.</p> <!-- Updated subheading -->
+            <p>Discover my journey, work, and my gaming adventures.</p>
+            <a href="#contact" class="cta-button">Contact Me</a>
         </div>
     </section>
 
@@ -38,14 +41,40 @@
         </div>
     </section>
 
-    <section id="gaming"> <!-- New "Gaming" section -->
+    <section id="gaming">
         <div class="section-content">
-            <h2>Gaming Adventures</h2> <!-- Updated section title -->
-            <p>Explore my gaming experiences, favorite titles, and more.</p> <!-- Updated content -->
+            <h2>Gaming Adventures</h2>
+            <p>Explore my gaming experiences, favorite titles, and more.</p>
         </div>
     </section>
+
+    <section id="contact">
+        <div class="section-content">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me using the contact form below.</p>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Send</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Aidan Bevan</p>
+        <p>&copy; 2023 Your Name</p>
     </footer>
 </body>
 </html>
