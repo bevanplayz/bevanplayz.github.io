@@ -1,0 +1,63 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #111;
+    color: #ff0000; /* Red text color */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0000; /* Red link color */
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url('gaming-background.jpg'); /* Add your gaming background image here */
+    background-size: cover;
+    text-align: center;
+    color: #fff; /* White text color for better visibility */
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff0000; /* Red button background color */
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the other sections as needed */
+
+/* Style the gaming section */
+#gaming {
+    background-color: #000; /* Black background color */
+    text-align: center;
+    color: #ff0000; /* Red text color */
+    padding: 100px 0;
+}
+
+/* Add your own custom styles here */
