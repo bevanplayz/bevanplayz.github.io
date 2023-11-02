@@ -29,7 +29,7 @@ nav a {
 
 /* Style the hero section */
 #hero {
-    background-image: url('gaming-background.jpg'); /* Add your gaming background image here */
+    background-image: url('images/hero.webp'); /* Add your gaming background image here */
     background-size: cover;
     text-align: center;
     color: #fff; /* White text color for better visibility */
